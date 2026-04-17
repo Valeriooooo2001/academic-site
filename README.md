@@ -54,12 +54,12 @@ npm run preview
 
 The project is currently configured with:
 
-- `https://valerio.github.io/academic-site/`
+- `https://valeriooooo2001.github.io/academic-site/`
 
 If your final GitHub username/repository is different, run this once from project root:
 
 ```powershell
-$old = "https://valerio.github.io/academic-site"
+$old = "https://valeriooooo2001.github.io/academic-site"
 $new = "https://YOUR-USERNAME.github.io/YOUR-REPO"
 Get-ChildItem -Recurse -File -Include *.html,*.xml,*.txt,README.md | ForEach-Object {
   (Get-Content $_.FullName -Raw).Replace($old, $new) | Set-Content $_.FullName
@@ -74,4 +74,5 @@ After the site is live:
 2. Submit `https://YOUR-DOMAIN/sitemap.xml`.
 3. Request indexing for the home page.
 4. Repeat on Bing Webmaster Tools for faster discovery.
+
 
