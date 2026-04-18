@@ -34,7 +34,7 @@ body {
   color: var(--text);
   background: var(--bg);
   font-family: var(--font-body);
-  font-size: 1rem;
+  font-size: 0.9375rem;
   line-height: 1.7;
   text-rendering: optimizeLegibility;
 }
@@ -74,7 +74,7 @@ button:focus-visible {
 }
 
 .container {
-  width: min(980px, 88vw);
+  width: min(900px, 84vw);
   margin: 0 auto;
 }
 
@@ -126,8 +126,8 @@ button:focus-visible {
 
 .nav-list a[aria-current="page"] {
   color: var(--text);
-  text-decoration: underline;
-  text-underline-offset: 0.18rem;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .menu-toggle {
@@ -154,7 +154,7 @@ button:focus-visible {
 }
 
 .intro-text {
-  padding-top: clamp(0.15rem, 0.8vw, 0.55rem);
+  padding-top: 0;
 }
 
 .kicker {
@@ -210,6 +210,9 @@ h3 {
 
 .profile-card {
   margin: 0;
+  margin-top: 0.35rem;
+  max-width: 260px;
+  justify-self: end;
   border-radius: 1rem;
   background: #ffffff;
   border: 1px solid var(--line);
@@ -436,7 +439,8 @@ h3 {
   }
 
   .profile-card {
-    max-width: 380px;
+    max-width: 320px;
+    justify-self: start;
   }
 
   .gallery {
