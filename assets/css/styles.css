@@ -316,6 +316,16 @@ h3 {
   font-size: 0.93rem;
 }
 
+.citation-list {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.citation-entry p {
+  margin: 0;
+  line-height: 1.6;
+}
+
 .page-grid {
   display: grid;
   gap: clamp(1.3rem, 2.6vw, 1.75rem);
