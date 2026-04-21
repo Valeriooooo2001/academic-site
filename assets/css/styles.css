@@ -316,6 +316,27 @@ h3 {
   font-size: 0.93rem;
 }
 
+.working-paper-title {
+  font-size: 1.05rem;
+  font-weight: 400;
+}
+
+.working-paper-link {
+  color: #1f5fa8;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.working-paper-link:hover,
+.working-paper-link:focus-visible {
+  color: #184e8b;
+  text-decoration: underline;
+}
+
+.working-paper-abstract {
+  font-size: 0.95rem;
+}
+
 .citation-list {
   display: grid;
   gap: 0.6rem;
