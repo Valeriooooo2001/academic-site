@@ -337,6 +337,13 @@ h3 {
   font-size: 0.95rem;
 }
 
+.agenda-divider {
+  width: 100%;
+  margin: 0 0 0.35rem;
+  border: 0;
+  border-top: 1px solid #d7d7d7;
+}
+
 .citation-list {
   display: grid;
   gap: 0.6rem;
@@ -345,6 +352,14 @@ h3 {
 .citation-entry p {
   margin: 0;
   line-height: 1.6;
+}
+
+.plain-entry {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0.2rem 0;
 }
 
 .page-grid {
